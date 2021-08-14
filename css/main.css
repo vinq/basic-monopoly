@@ -1,0 +1,62 @@
+select {
+  min-width: 150px; }
+
+input, h2, select {
+  float: left;
+  margin: 10px;
+  display: block; }
+
+.app {
+  display: block;
+  clear: both;
+  width: 400px; }
+
+.player, .firm {
+  padding: 10px;
+  display: block; }
+
+.firm {
+  border: 2px solid green; }
+
+.player {
+  border: 2px solid red;
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  margin: 5px; }
+
+.players-card {
+  display: inline-block;
+  position: relative; }
+
+.fields-cards {
+  display: inline-block;
+  position: relative; }
+
+.events-card {
+  display: inline-block;
+  position: relative;
+  height: 200px;
+  width: 200px; }
+
+.field {
+  border: 3px solid black;
+  padding: 10px;
+  display: inline-block;
+  position: relative; }
+
+.cell {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 60px;
+  border: 3px solid black;
+  margin: 2px;
+  padding: 5px;
+  cursor: pointer; }
+
+.cellBoted {
+  border: 5px solid blue; }
+
+.cellPlayered {
+  border: 5px solid red; }
